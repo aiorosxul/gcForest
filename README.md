@@ -1,4 +1,4 @@
-Compared to the original implementation of gcForest, several tiny modifications have been made for my own convenience:
+🏂 Compared to the original implementation of gcForest, several tiny modifications have been made for my own convenience:
 1. The merged feature vectors derived from the last cascade layer are exported for later use if you want to have other models implemented based on it
 2. Somehow you can tune the parameters of the base estimators, or even change the random forest model to others(I've tried to use some other models, e.g., XGB, LGB, LR, etc., as base estimators but found the final result is not as good as from random forests only)
 3. Add AUC and KS evaluation metric which is often used in binary-classification tasks
